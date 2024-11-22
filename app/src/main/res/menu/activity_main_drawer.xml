@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/fragmentInicio"
+            android:icon="@drawable/inicio"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/matriculaAlumnoFragment"
+            android:icon="@drawable/matricular"
+            android:title="Matricular Alumnos" />
+        <item
+            android:id="@+id/modificarFragment"
+            android:icon="@drawable/modificar"
+            android:title="Modificar Alumno" />
+        <item
+            android:id="@+id/borrarFragment"
+            android:icon="@drawable/borrar"
+            android:title="Borrar Alumno" />
+
+    </group>
+
+    <item
+        android:id="@+id/nav_acerca_de"
+        android:enabled="false"
+        android:title="Listados"
+        />
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/listarFragment"
+            android:icon="@drawable/listar"
+            android:title="Listar Alumnos" />
+    </group>
+</menu>
